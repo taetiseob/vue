@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <title>JS Bin</title>
+</head>
+<body>
+  
+  <div id="app">
+    <h1>Hello, {{ name }}</h1>
+    <h2>{{Date()}}</h2>
+    <img :src="smile ? feelsgood : feelsbad"/>
+  </div>
+  <script>
+      var app = new Vue({
+        el : '#app',
+        data : {
+            name : 'vue',
+            smile : true,
+            feelsgood: 'img/lifecycle.png',
+            feelsbad: 'img/life.png'
+        }
+      });
+  </script>
+  
+</body>
+</html>

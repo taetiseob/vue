@@ -1,0 +1,11 @@
+https://jinblog.kr/192
+https://jsfiddle.net/eu81273/wrf4354t/
+
+https://blog.hanumoka.net/2018/08/26/vue-20180826-web-webpack/
+
+router basic : https://jsfiddle.net/eu81273/wrf4354t/,
+		http://blog.jeonghwan.net/2018/04/07/vue-router.html
+
+APP ex) : http://private.tistory.com/72  
+
+single-compornant   :   http://www.kimsatgod.com/vue-js-%EB%8B%A8%EC%9D%BC-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%ED%8C%8C%EC%9D%BC/
