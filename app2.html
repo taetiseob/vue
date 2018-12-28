@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://unpkg.com/vue"></script>
+    </head>
+    <body>
+        
+        <div id="app-2">
+            <span v-bind:title="message">
+                v-접미사 동적 바인딩
+            </span>
+        </div>
+        
+        <script>
+            new Vue({
+            el: '#app-2',
+            data: {
+                message: 'Hello Vue.js!'+ new Date() + 'onLoad'
+            }
+            })
+        </script>
+    </body>
+</html>
